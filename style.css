@@ -21,11 +21,10 @@ body {
   justify-content: center;
 }
 .mainBox {
-  height: 400px;
   width: 100%;
   max-width: 400px;
   background: #ffeff6;
-  padding: 10px;
+  padding: 10px 40px 40px;
   border-radius: 10px;
 }
 .mainBox .heading {
@@ -57,10 +56,13 @@ body {
 }
 #Chorui,
 #Kaththokra,
-#Kokil,
 #Bulbuli,
 #Babui,
 #Tia,
+#Ghughu,
 #Dowel {
-  width: 70px;
+  transform: scale(1.4);
+}
+#Kokil {
+  transform: scale(1.6);
 }
