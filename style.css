@@ -42,20 +42,25 @@ body {
   width: 70%;
   height: 2px;
   background-color: red;
+  margin-bottom: 40px;
 }
 .mainBox .birds {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 .mainBox .birds img {
   width: 50px;
-  position: absolute;
   cursor: pointer;
 }
-.mainBox .birds .Tia {
-  top: 100px;
-  transform: rotate(60deg);
-}
-.mainBox .birds .Machranga {
-  top: 0px;
-  transform: rotate(24deg);
+#Chorui,
+#Kaththokra,
+#Kokil,
+#Bulbuli,
+#Babui,
+#Tia,
+#Dowel {
+  width: 70px;
 }
