@@ -57,12 +57,12 @@ body {
 #Chorui,
 #Kaththokra,
 #Bulbuli,
-#Babui,
-#Tia,
 #Ghughu,
+#Tia,
 #Dowel {
   transform: scale(1.4);
 }
-#Kokil {
+#Kokil,
+#Babui {
   transform: scale(1.6);
 }
